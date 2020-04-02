@@ -1,29 +1,223 @@
-<h1>Introduction</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<p>The Grassroots system running at EI is being used to gather and catalogue the Field Trial information generated within the DFW programme. Typically this information is collected within spreadsheets and WP4 has been working with field managers and biologists to standardise these spreadsheets and collection mechanisms. The standards we have produced follow the same concepts as the <u>Breeding API (BrAPI)</u>, a technical solution to use these standards to make genotyping, phenotyping and trial data interoperable and reusable. </p>
+<head>
 
-<p>The top level of the BrAPI hierarchy is a <strong>Program</strong> which, initially for us, is the Designing Future Wheat (DFW) programme. We can store non-DFW data and create the relevant Programs for such data, however our initial focus is on DFW data.</p>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<p>Each Program can contain one or more <strong>Trials</strong>, which BrAPI defines as the equivalent of an "investigation" in the <u>Minimal Information about a Plant Phenotyping Experiment (MIAPPE)</u> standard.</p>
-<p> </p>
-<p>Trials can consist of one or more experiments where seeds are sown and phenotypic information is gathered and each of these is called a <strong>Study</strong>. These contain a variety of data, such as weather information, experimental design notes and each Study takes place at a <strong>Location</strong>. To add a Study to the system you need to define both the Field Trial that it is part of and the Location where it took place.</p>
+    <title>Grassroots Infrastructure</title>
 
-<p>For each Study, you can specify the set of phenotypes that will be measured and these are called <strong>Measured Variables</strong>. Each of these consist of unique “triples” (three distinct pieces of information) that define (a) a phenotype, (b) how it has been measured and (c) which units have been used. When you have specified the phenotypes to use, these are submitted as <strong>Plots</strong>,<strong> </strong>along with the details of how the experiment has been laid out in the field. Plots contain various details such as width, length, position in field, phenotypic data, <i>etc.</i> </p>
+    <!-- Bootstrap core CSS -->
+    <link href="https://grassroots.tools/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<p>All of the uploaded data is available in our field trial search portal which allows you to search across all Studies and view individual Studies in more detail.</p>
+    <!-- Custom fonts for this template -->
+    <link href="https://grassroots.tools/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css">
 
-<p>The various services are described in more detail below, however for easy access, the links to each of the services are:</p>
+    <!-- Custom styles for this template -->
+    <link href="https://grassroots.tools/css/site.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21666189-16"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<p>Submitting data:</p>
-<ul><li>Submit Trial: <u>https://grassroots.tools/private/service/field_trial-submit_trial</u></li></ul>
-<li>Submit Location: <u>https://grassroots.tools/private/service/field_trial-submit_location</u></li>
-<li>Submit Study: <u>https://grassroots.tools/private/service/field_trial-submit_study</u></li>
-<li>Submit Plots: <u>https://grassroots.tools/private/service/field_trial-submit_plots</u></li></ul>
-<p>Searching the system:</p>
-<li>Measured Variables:</li>
-<ul><li>https://grassroots.tools/public/service/field_trial-search_measured_variables</li></ul>
-<li>Studies</li>
-<li>https://grassroots.tools/public/dynamic/fieldtrial_dynamic.html?type=AllFieldTrials</li></ul>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-<p>We will start by looking at the various services for submitting data. This will be followed by the documentation on using our Field Trial Search Portal.</p>
+        gtag('js', new Date());
 
+        gtag('config', 'UA-21666189-16');
+    </script>
+
+
+</head>
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html" style="text-transform: none ! important;">Grassroots
+            Infrastructure</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger"
+                       href="https://grassroots.tools/index.html#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="https://grassroots.tools/docs/developer/api/">Docs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="https://grassroots.tools/index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="https://grassroots.tools/blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="https://grassroots.tools/index.html#contact">Contact</a>
+                </li>
+            </ul>
+            <img class="navbar-nav navbar-right" style="height:50px;margin-left:50px;"
+                 src="https://grassroots.tools/img/logo-white.png"/>
+        </div>
+    </div>
+</nav>
+<!--content-->
+<style type="text/css">
+    .modal-body {
+        height: 250px;
+        overflow-y: auto;
+    }
+
+    @media (min-height: 500px) {
+        .modal-body {
+            height: 400px;
+        }
+    }
+
+    @media (min-height: 800px) {
+        .modal-body {
+            height: 600px;
+        }
+    }
+</style>
+
+<section id="services" style="padding: 100px 0px 100px 0px ! important;">
+    <div class="container">
+        <h1>Introduction</h1>
+
+        <p>The Grassroots system running at EI is being used to gather and catalogue the Field Trial information
+            generated within the DFW programme. Typically this information is collected within spreadsheets and WP4 has
+            been working with field managers and biologists to standardise these spreadsheets and collection mechanisms.
+            The standards we have produced follow the same concepts as the <u>Breeding API (BrAPI)</u>, a technical
+            solution to use these standards to make genotyping, phenotyping and trial data interoperable and reusable.
+        </p>
+
+        <p>The top level of the BrAPI hierarchy is a <strong>Program</strong> which, initially for us, is the Designing
+            Future Wheat (DFW) programme. We can store non-DFW data and create the relevant Programs for such data,
+            however our initial focus is on DFW data.</p>
+
+        <p>Each Program can contain one or more <strong>Trials</strong>, which BrAPI defines as the equivalent of an
+            "investigation" in the <u>Minimal Information about a Plant Phenotyping Experiment (MIAPPE)</u> standard.
+        </p>
+        <p></p>
+        <p>Trials can consist of one or more experiments where seeds are sown and phenotypic information is gathered and
+            each of these is called a <strong>Study</strong>. These contain a variety of data, such as weather
+            information, experimental design notes and each Study takes place at a <strong>Location</strong>. To add a
+            Study to the system you need to define both the Field Trial that it is part of and the Location where it
+            took place.</p>
+
+        <p>For each Study, you can specify the set of phenotypes that will be measured and these are called <strong>Measured
+            Variables</strong>. Each of these consist of unique “triples” (three distinct pieces of information) that
+            define (a) a phenotype, (b) how it has been measured and (c) which units have been used. When you have
+            specified the phenotypes to use, these are submitted as <strong>Plots</strong>,<strong> </strong>along with
+            the details of how the experiment has been laid out in the field. Plots contain various details such as
+            width, length, position in field, phenotypic data, <i>etc.</i></p>
+
+        <p>All of the uploaded data is available in our field trial search portal which allows you to search across all
+            Studies and view individual Studies in more detail.</p>
+
+        <p>The various services are described in more detail below, however for easy access, the links to each of the
+            services are:</p>
+
+        <p>Submitting data:</p>
+        <ul>
+            <li>Submit Trial: <u>https://grassroots.tools/private/service/field_trial-submit_trial</u></li>
+        </ul>
+        <li>Submit Location: <u>https://grassroots.tools/private/service/field_trial-submit_location</u></li>
+        <li>Submit Study: <u>https://grassroots.tools/private/service/field_trial-submit_study</u></li>
+        <li>Submit Plots: <u>https://grassroots.tools/private/service/field_trial-submit_plots</u></li>
+        </ul>
+        <p>Searching the system:</p>
+        <li>Measured Variables:</li>
+        <ul>
+            <li>https://grassroots.tools/public/service/field_trial-search_measured_variables</li>
+        </ul>
+        <li>Studies</li>
+        <li>https://grassroots.tools/public/dynamic/fieldtrial_dynamic.html?type=AllFieldTrials</li>
+        </ul>
+
+        <p>We will start by looking at the various services for submitting data. This will be followed by the
+            documentation on using our Field Trial Search Portal.</p>
+
+
+    </div>
+</section>
+<!-- Footer -->
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4" style="text-align: left ! important;">
+                    <h3>Earlham Institute</h3>
+                    <p>Norwich Research Park<br/>
+                        Norwich<br/>
+                        NR4 7UZ<br/>
+                        UK</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Project Code</h3>
+                    <p>The project is fully open source and the source code is available on <a
+                            href="https://github.com/TGAC?q=grassroots" target="_blank">GitHub</a>:</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a class="btn-social btn-outline" href="https://github.com/TGAC?q=grassroots"
+                               target="_blank">
+                                <i class="fa fa-fw fa-github"></i>
+                            </a>
+                        </li>
+                        <!--<li class="list-inline-item">-->
+                        <!--<a class="btn-social btn-outline" href="#">-->
+                        <!--<i class="fa fa-fw fa-twitter"></i>-->
+                        <!--</a>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4" style="text-align: left ! important;">
+                    <h3>Funding</h3>
+                    <p>The Grassroots project is strategically funded through the BBSRC Designing Future Wheat
+                        programme
+                        grant, BB/P016855/1, and aims to develop a lightweight reusable set of open source
+                        software
+                        tools
+                        to allow researchers to share and federate life science datasets.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    &copy; 2017 - 2019 Brought to you by <a href="http://www.earlham.ac.uk/" target="_blank">Earlham
+                    Institute</a>, powered by <a href="http://cyverseuk.org" target="_blank">CyVerse UK</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="https://grassroots.tools/vendor/jquery/jquery.min.js"></script>
+<script src="https://grassroots.tools/vendor/popper/popper.min.js"></script>
+<script src="https://grassroots.tools/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://grassroots.tools/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="https://grassroots.tools/js/site.js"></script>
+
+</body>
+</html>
