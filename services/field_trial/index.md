@@ -33,9 +33,9 @@ The various services are described in more detail below, however for easy access
  * [Submitting a Trial](https://grassroots.tools/docs/user/services/field_trial/submit_trial.md)
  * [Submitting a Location](https://grassroots.tools/docs/user/services/field_trial/submit_location.md)
  * [Submitting a Study](https://grassroots.tools/docs/user/services/field_trial/submit_study.md)
- * [Submitting Plots](https://grassroots.tools/docs/user/services/field_trial/submit_plots.html)
+ * [Submitting Plots](https://grassroots.tools/docs/user/services/field_trial/submit_plots.md)
 
 ### Searching the system:
 
-The page for how to use the search services is at [https://grassroots.tools/docs/user/services/field_trial/search_services.html](https://grassroots.tools/docs/user/services/field_trial/search_services.html).
+The page for how to use the search services is at [https://grassroots.tools/docs/user/services/field_trial/search_services.md](https://grassroots.tools/docs/user/services/field_trial/search_services.md).
         
