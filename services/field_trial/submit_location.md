@@ -19,9 +19,7 @@ You can alter the GPS coordinates and altitude of the location yourself should t
  * **Supply your own GPS coordinates**: Tick this box if you wish to override the GPS coordinates
  * **Latitude**: If *Supply your own GPS coordinates* is ticked, then this will specify the latitude of
      this Location in decimal degrees *e.g.* 41.40338
- 
  * **Longitude**: If *Supply your own GPS coordinates* is ticked, then this will specify the longitude of
      this Location in decimal degrees *e.g.* -12.87665
- 
  * **Altitude**: If *Supply your own GPS coordinates* is ticked, then this will specify the altitude of
      this Location in metres.
