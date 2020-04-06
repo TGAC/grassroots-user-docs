@@ -30,9 +30,9 @@ The various services are described in more detail below, however for easy access
 
 ### Submitting data:
 
- * [Submitting a Trial](https://grassroots.tools/docs/user/services/field_trial/submit_trial.html)
- * [Submitting a Location](https://grassroots.tools/docs/user/services/field_trial/submit_location.html)
- * [Submitting a Study](https://grassroots.tools/docs/user/services/field_trial/submit_study.html)
+ * [Submitting a Trial](https://grassroots.tools/docs/user/services/field_trial/submit_trial.md)
+ * [Submitting a Location](https://grassroots.tools/docs/user/services/field_trial/submit_location.md)
+ * [Submitting a Study](https://grassroots.tools/docs/user/services/field_trial/submit_study.md)
  * [Submitting Plots](https://grassroots.tools/docs/user/services/field_trial/submit_plots.html)
 
 ### Searching the system:
