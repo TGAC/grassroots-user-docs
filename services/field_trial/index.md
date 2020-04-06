@@ -37,5 +37,7 @@ The various services are described in more detail below, however for easy access
 
 ### Searching the system:
 
+The page about the Field Trial Search Portal is at [https://grassroots.tools/docs/user/services/field_trial/search_portal.md](https://grassroots.tools/docs/user/services/field_trial/search_portal.md)
+
 The page for how to use the search services is at [https://grassroots.tools/docs/user/services/field_trial/search_services.md](https://grassroots.tools/docs/user/services/field_trial/search_services.md).
         
