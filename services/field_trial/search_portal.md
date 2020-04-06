@@ -25,6 +25,6 @@ Click on each of the plot to view detailed information:
 
 ![Plot details](images/Image_10.png)
 
-Plots can be searched by their content from the search section on the right. Currently it is possible to search the crop accessions within the plot. More search functionalities are being added, <i>e.g.</i> phenotype search.
+Plots can be searched by their content from the search section on the right. Currently it is possible to search the crop accessions within the plot. More search functionalities are being added, *e.g.* phenotype search.
 
 ![Search plots](images/Image_11.png)
