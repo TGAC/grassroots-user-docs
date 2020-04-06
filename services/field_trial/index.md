@@ -37,5 +37,5 @@ The various services are described in more detail below, however for easy access
 
 ### Searching the system:
 
-The page for how to use the search services is at [https://grassroots.tools/docs/user/services/field_trial/search_services.html](https://grassroots.tools/docs/user/services/field_trial/search_services.html).
+The page for how to use the search services is at [https://grassroots.tools/docs/user/services/field_trial/search_services.md](https://grassroots.tools/docs/user/services/field_trial/search_services.md).
         
