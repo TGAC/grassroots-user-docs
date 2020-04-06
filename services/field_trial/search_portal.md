@@ -15,7 +15,7 @@ Each Field trial and study can be opened in a new page via the links. They are s
 There is also a link to display all field trials:
 [https://grassroots.tools/public/dynamic/fieldtrial_dynamic.html?type=AllFieldTrials](https://grassroots.tools/public/dynamic/fieldtrial_dynamic.html?type=AllFieldTrials)
 
-##Field Trial Plots View##
+##Field Trial Plots View
 
 From the Study page, it is possible to view the plots:
 
