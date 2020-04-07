@@ -1,8 +1,4 @@
-##Search Services
-
-We provide various services that allow you to search across the field trial data.
-
-###Measured Variables
+##Search Measured Variables
 
 URL: [https://grassroots.tools/public/service/field_trial-search_measured_variables](https://grassroots.tools/public/service/field_trial-search_measured_variables)
 
