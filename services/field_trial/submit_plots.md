@@ -12,6 +12,21 @@ Then the table below will either load the plot info already in the database or s
 
 ![Add Measured Variables dialogue](images/Image_3.png)
 
+The spreadsheet contains:
+
+ * **Sowing date**: Sowing date of the plot.
+ * **Harvest date**: Harvest date of the plot, can be left empty.
+ * **Width**: Width of the plot fill the values with unit.
+ * **Length**: Length of the plot fill the values with unit.
+ * **Plot ID**: The ID of the plot.
+ * **Row**: Row number of the plot.
+ * **Column**: Column number of the plot.
+ * **Replicate**: Replicate number of the plot.
+ * **Rack**: Rack number of the plot.
+ * **Accession**: Accession name, currently the Germplasm Resource Unit of the John Innes Centre, can be empty. 
+ * **Comment**: Any comments for the plot.
+ * **and (measured variables columns)**: Extra columns you added with the method below:
+
 To add data or import an Excel file, make sure to add the [Measured Variables](https://grassroots.tools/public/service/field_trial-search_measured_variables)
  first. They can be found
             from the page in the link above, when a Measured Variable is entered in the above popup window (*e.g.*
@@ -28,8 +43,8 @@ To add data or import an Excel file, make sure to add the [Measured Variables](h
     
 ![New columns](images/Image_4.png)
 
-Press “Add Row” for each row of the plots to be added with the relevant info, or you can download an Excel
-            file to edit offline.
+Press “Add Row” for each row of the plots to be added with the relevant info, or you can download an Excel file to edit offline.
+            
 
 Once completed, a filled Excel file can be imported to the table using the drop zone above the table with the
             heading <i>Plot data to upload</i>. The table will then be filled with the information from the uploaded
