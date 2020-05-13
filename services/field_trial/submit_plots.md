@@ -23,9 +23,9 @@ The spreadsheet contains:
  * **Column**: Column number of the plot.
  * **Replicate**: Replicate number of the plot.
  * **Rack**: Rack number of the plot.
- * **Accession**: Accession name, currently the Germplasm Resource Unit of the John Innes Centre, can be empty. 
+ * **Accession**: Accession name, currently the Germplasm Resource Unit of the John Innes Centre, can be empty, more genbanks will be added. 
  * **Comment**: Any comments for the plot.
- * **and (measured variables columns)**: Extra columns you added with the method below:
+ * **and measured variables columns**: Extra columns you added with the method below:
 
 To add data or import an Excel file, make sure to add the [Measured Variables](https://grassroots.tools/public/service/field_trial-search_measured_variables)
  first. They can be found
