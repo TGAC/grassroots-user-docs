@@ -14,16 +14,16 @@ Then the table below will either load the plot info already in the database or s
 
 The spreadsheet contains:
 
- * **Sowing date**: Sowing date of the plot.
- * **Harvest date**: Harvest date of the plot, can be left empty.
- * **Width**: Width of the plot fill the values with unit.
- * **Length**: Length of the plot fill the values with unit.
- * **Plot ID**: The ID of the plot.
- * **Row**: Row number of the plot.
- * **Column**: Column number of the plot.
+ * **Sowing date**: Sowing date of the plot. If left blank, then the *Sowing date* specified for the Study will be used. 
+ * **Harvest date**: Harvest date of the plot. If left blank, then the *Harvest date* specified for the Study will be used. 
+ * **Width**: This is the width, in metres, of each plot. If left blank, then the *Plot width* specified for the Study will be used.   
+ * **Length**: This is the length, in metres, of each plot. If left blank, then the *Plot height* specified for the Study will be used.   
+ * **Plot ID**: The ID of the plot. This is a number given to uniquely identify each plot in the Study. If GeoJSON and/or images are available, this will be used to identify which plot this information refers to. 
+ * **Row**: Row number of the plot. The numbering starts at 1 at the left-hand edge of the plots.
+ * **Column**: Column number of the plot. The numbering starts at 1 at the bottom-edge of the plots.
  * **Replicate**: Replicate number of the plot.
  * **Rack**: Rack number of the plot.
- * **Accession**: Accession name, currently the Germplasm Resource Unit of the John Innes Centre, can be empty, more genbanks will be added. 
+ * **Accession**: Accession name. This is the unique identifier from a particular seed/gene bank to identify the material. Currently the Germplasm Resource Unit at the John Innes Centre is the only available seed bank, more will be added in the future, and the value that should be used is what they refer to as the *Accession Name*. For example, for the material detailed [here](https://www.seedstor.ac.uk/search-infoaccession.php?idPlant=39145) the accession name is *PW468-84-1-15-Q2B-MATU-P*.
  * **Comment**: Any comments for the plot.
  * **and measured variables columns**: Extra columns you added with the method below:
 
