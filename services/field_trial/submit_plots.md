@@ -23,7 +23,7 @@ The spreadsheet contains:
  * **Column**: Column number of the plot.
  * **Replicate**: Replicate number of the plot.
  * **Rack**: Rack number of the plot.
- * **Accession**: Accession name, currently the Germplasm Resource Unit of the John Innes Centre, can be empty, more genbanks will be added. 
+ * **Accession**: Accession name, currently the Germplasm Resource Unit of the John Innes Centre, can be empty, more gene banks will be added. If the accession can be found in the GRU, it will change the background colour to green otherwise it will be blue.
  * **Comment**: Any comments for the plot.
  * **and measured variables columns**: Extra columns you added with the method below:
 
