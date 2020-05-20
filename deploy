@@ -1,0 +1,1 @@
+rsync -azv --delete ../grassroots-user-docs/ ubuntu@149.155.193.70:grassroots-user-docs/
