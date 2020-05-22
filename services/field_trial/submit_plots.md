@@ -24,7 +24,6 @@ The spreadsheet contains:
  * **Replicate**: Replicate number for this sample. If left blank, then this will default to 1. As well as the number, this field can also have *control* to denote an experimental control sample. 
  * **Rack**: Rack number within the given row/column block.
  * **Accession**: Accession name. This is the unique identifier from a particular seed/gene bank to identify the material. Currently the Germplasm Resource Unit (GRU) at the John Innes Centre is the only available seed bank, more will be added in the future, and the value that should be used is what they refer to as the *Accession Name*. For example, for the material detailed [here](https://www.seedstor.ac.uk/search-infoaccession.php?idPlant=39145) the accession name is *PW468-84-1-15-Q2B-MATU-P*. If the accession can be found in the GRU, it will change the background colour to green otherwise it will be blue.
->>>>>>> 48f8a1bc7b88291f7d88c2da6583cacf28a33a1c
  * **Comment**: Any comments for the plot.
  * **and measured variables columns**: Extra columns you added with the method below:
 
