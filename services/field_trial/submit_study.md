@@ -10,7 +10,7 @@ main forms that you will need to complete and has a number of fields:
       that you require is not in this list, then you’ll need to create it by following the instructions for
       [creating a Field Trial](submit_trial.md).
  * **Location** *: This is the Location where the Study is taking place. If the Locations that
-      you require is not in this list, then you’ll need to create it by following the instructions for <a href="submit_location.html">creating
+      you require is not in this list, then you’ll need to create it by following the instructions for
        [creating a Location](submit_location.md) 
  * **Soil**: This is a free-text field to give any details about the soil condition for the
       Study
