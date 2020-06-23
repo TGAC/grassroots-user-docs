@@ -49,7 +49,7 @@ Study. The values that can be set are:
  * **Number of plot columns**: How many columns of plots there are in this Study.
  * **Number of replicates**: The number of genotype replicates in this Study. If left blank, it is assumed to be 1.
  * **Plot width**: This is the width, in metres, of each plot.
- * **Plot height**: This is the length, in metres, of each plot.
+ * **Plot length**: This is the length, in metres, of each plot.
 
 To automatically generate the spreadsheet of Plot data, at least both of the *Number of plot rows* and
 *Number of plot columns* parameters need to be specified. Grassroots will generate a row in the
