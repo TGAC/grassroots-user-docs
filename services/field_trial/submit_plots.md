@@ -14,8 +14,8 @@ Then the table below will either load the plot info already in the database or s
 
 The spreadsheet contains:
 
- * **Sowing date**: Sowing date of the plot. If left blank, then the *Sowing date* specified for the Study will be used. 
- * **Harvest date**: Harvest date of the plot. If left blank, then the *Harvest date* specified for the Study will be used. 
+ * **Sowing date**: Sowing date of the plot in the format YYYY-MM-DD. If left blank, then the *Sowing date* specified for the Study will be used. 
+ * **Harvest date**: Harvest date of the plot in the format YYYY-MM-DD. If left blank, then the *Harvest date* specified for the Study will be used. 
  * **Width**: This is the width, in metres, of each plot. If left blank, then the *Plot width* specified for the Study will be used.
  * **Length**: This is the length, in metres, of each plot. If left blank, then the *Plot length* specified for the Study will be used.
  * **Rack ID** *: The ID of the rack. This is a number given to uniquely identify each rack in the Study similar to a primary key in a database. 
@@ -44,7 +44,7 @@ To add data or import an Excel file, make sure to add the [Measured Variables](h
     
 ![New columns](images/Image_4.png)
 
-Press “Add Row” for each row of the plots to be added with the relevant info, or you can download an Excel file to edit offline.
+Press "Add Row" for each row of the plots to be added with the relevant info, or you can download an Excel file to edit offline.
             
 
 Once completed, a filled Excel file can be imported to the table using the drop zone above the table with the
