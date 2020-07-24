@@ -28,6 +28,14 @@ All of the uploaded data is available in our field trial search portal which all
 
 The various services are described in more detail below, however for easy access, the links to each of the services are:
 
+### Registering an ORCID
+
+To submit data into the DFW Field Trial system, you need to have an ORCID - a unique identifier that can be used to record your institution, affiliations, funding, publications, etc. ORCIDs are becoming favoured by funders, journals, and services like grassroots because it allows (a) science outputs to be attributable to an individual even if they move employment and (b) the use of ORCIDs as an authentication mechanism to identify people who are able to use specific services. In this case, we can attribute your field trials to you as collectors of this information within DFW, but also control who is able to submit data thus preventing people from gaining access to the system. 
+
+Registering for an ORCID takes a couple of minutes and will not expose any personal information about you. Please follow the instructions linked below to get an ORCID:
+
+ * [Getting an ORCID](https://grassroots.tools/docs/user/services/field_trial/orcid.md)
+
 ### Submitting data:
 
  * [Submitting a Trial](https://grassroots.tools/docs/user/services/field_trial/submit_trial.md)
