@@ -11,7 +11,7 @@ To register with ORCID go to [https://orcid.org/signin](https://orcid.org/signin
  * **Password**
  * **Confirm Password**
 
-![Figure 1: Profile Settings](images/orcid_1.png "Profile Settings")(#figure-1)
+![Figure 1: Profile Settings](images/orcid_1.png "Profile Settings")[#figure-1]
 <figcaption>Figure 1: Profile Settings</figcaption>
 
 The next stage is to choose who can see your profile in the visibility settings as shown in Figure 2. No private information is shared through ORCID, only information that would usually be publicly available. However, if you are concerned about the visibility of your information, you can choose a more restrictive setting and there is more information available [here](https://support.orcid.org/hc/en-us/articles/360006897614). In any case, any of the visibility settings are fine for the Grassroots authentication to work.
