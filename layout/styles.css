@@ -1,20 +1,4 @@
-@media (min-height: 500px) {
-    .modal-body {
-        height: 400px;
-    }
-}
 
-@media (min-height: 800px) {
-    .modal-body {
-        height: 600px;
-    }
-}
-
-@media (min-width: 992px){
-  li {
-    font-size: 20px ! important;
-  }
-}
 
 .modal-body {
     height: 250px;
@@ -36,3 +20,21 @@ figcaption {
   font-weight: bold;
 }
 
+
+@media (min-height: 500px) {
+    .modal-body {
+        height: 400px;
+    }
+}
+
+@media (min-height: 800px) {
+    .modal-body {
+        height: 600px;
+    }
+}
+
+@media (min-width: 992px){
+  li {
+    font-size: 20px ! important;
+  }
+}
