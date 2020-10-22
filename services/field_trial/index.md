@@ -15,7 +15,7 @@ These contain a variety of data, such as weather information, experimental desig
 To add a Study to the system you need to define both the Field Trial that it is part of and the Location where it
 took place.
 
-For each Study, you can specify the set of phenotypes that will be measured and these are called **Measured Variables**. Each of these consist of unique "triples" (three distinct pieces of information) that define:
+For each Study, you can specify the set of phenotypes that will be measured and these are called **Measured Variables**. Each of these consist of unique *triples* (three distinct pieces of information) that define:
 
  1. A phenotype
  2. How it has been measured 
@@ -30,7 +30,7 @@ The various services are described in more detail below, however for easy access
 
 ### Registering an ORCID
 
-To submit data into the DFW Field Trial system, you need to have an ORCID - a unique identifier that can be used to record your institution, affiliations, funding, publications, etc. ORCIDs are becoming favoured by funders, journals, and services like grassroots because it allows 
+To submit data into the DFW Field Trial system, you need to have an ORCID - a unique identifier that can be used to record your institution, affiliations, funding, publications, **etc.** ORCIDs are becoming favoured by funders, journals, and services like grassroots because it allows 
 
  * science outputs to be attributable to an individual even if they move employment and 
  * the use of ORCIDs as an authentication mechanism to identify people who are able to use specific services. 
