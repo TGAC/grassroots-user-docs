@@ -8,7 +8,7 @@ A Program consists of the following pieces of information
 
  * **Name** *: The name of the Program.
  * **Abbreviation**: An abbreviation for the Program.
- * **Crop** *: This is the crop that this Program is investigating.
+ * **Crop**: This is the crop that this Program is investigating.
  * **Objective** *: This is a description of the objectives of the Program.
  * **Web address**: If there is a web page associated with this Program, you can enter it here.
  * **Principal Investigator** *: This is the name of lead person for this Program.
