@@ -5,6 +5,7 @@ The form for submitting or editing an existing Study is available at [https://gr
 A Study is an experiment that takes place at a location to measure a variety of phenotypes. It is one of the
 main forms that you will need to complete and has a number of fields:
 
+ * **Load Study**: If you wish to edit an existing Study, choose it from this list and its values will be loaded.
  * **Name** *: The name of the Study.
  * **Field Trial** *: This is the Field Trial that this Study belongs to. If the Field Trial
       that you require is not in this list, then you’ll need to create it by following the instructions for
@@ -12,10 +13,6 @@ main forms that you will need to complete and has a number of fields:
  * **Location** *: This is the Location where the Study is taking place. If the Locations that
       you require is not in this list, then you’ll need to create it by following the instructions for
        [creating a Location](submit_location.md) 
- * **Soil**: This is a free-text field to give any details about the soil condition for the
-      Study
- * **Link**: If there is a web page relating to this Study with more information that will be
-      of interest to users, it can be specified here.
  * **Sowing date**: This is the date when the seeds are shown in the field.
  * **Harvest date:** This is the date when the crops are harvested. The plots data can be
       entered at the drilling stage in which case this field can be left blank.
@@ -29,15 +26,35 @@ main forms that you will need to complete and has a number of fields:
       collection of phenotypes for this Study can be set.
  * **Weather**: If there is a system with the weather details for this Study, enter the web
       page for it here.
- * **Aspect**: The direction of the plots layout. If this is not known, choose *unknown*. 
- * **Slope**: The slope of the field.
  * **Crop**: This is the crop that has been sown for this Study. If the required crop is
       missing, please contact us to make it available in the system.
  * **Previous crop**: This is the crop that was previously sown in the field that this Study
       is in. If the required crop is missing, please contact us to make it available in the system. 
  * **pH minimum**: If the pH levels of the soil are known, enter the minimum value here.
- * **pH maximum:** If the pH levels of the soil are known, enter the maximum value here.
-  
+ * **pH maximum**: If the pH levels of the soil are known, enter the maximum value here.
+ * **Soil**: This is a free-text field to give any details about the soil condition for the
+      Study
+ * **Link**: If there is a web page relating to this Study with more information that will be
+      of interest to users, it can be specified here.
+  * **Plots GPS**: If you have a GeoSJON file with the layout of the plots within the field, you can submit it here.  
+
+### Layout
+
+ * **Aspect**: The direction of the plots layout. If this is not known, choose *Unknown*. 
+ * **Slope**: The slope of the field.
+ 
+The next set of values take into account the gaps between plots within the field as well as the routes to 
+allow tractors to navigate the field and perform the drilling. In the next list of parameters, these groups of
+plots between the tractor tracks are referred to as a *block*
+ 
+ * **Horizontal plot gap**: This is the distance, in metres, between each plot within a row.
+ * **Vertical plot gap**: This is the distance, in metres, between each plot within a column.
+ * **Plot rows per block**: If the layout has spaces to allow for tractors, this is how many rows of plots
+there are in each of blocks between the tractor routes.
+ * **Plot columns per block**: If the layout has spaces to allow for tractors, this is how many columns of plots
+there are in each of blocks between the tractor routes.
+ * **Horizontal plot block gap**: This is the distance, in metres, between each block of plots within a row.
+ * **Vertical plot block gap**: This is the distance, in metres, between each block of plots within a column.
 
 ### Default plot data
 
