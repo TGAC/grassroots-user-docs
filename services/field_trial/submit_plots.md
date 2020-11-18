@@ -28,7 +28,7 @@ The spreadsheet contains:
  * **Comment**: Any comments for the plot.
  * **and measured variables columns**: Extra columns you added with the method below:
 
-To add data or import an Excel file, make sure to add the [Measured Variables](https://grassroots.tools/public/service/field_trial-search_measured_variables)
+To add data, make sure to add the [Measured Variables](https://grassroots.tools/public/service/field_trial-search_measured_variables)
  first. They can be found
             from the page in the link above, when a Measured Variable is entered in the above popup window (*e.g.*
             SLA_M_m2kg1), three new columns will be created in the table. These three columns are for the phenotypic
@@ -41,7 +41,6 @@ To add data or import an Excel file, make sure to add the [Measured Variables](h
 - **SLA_M_m2kg1 date**: This is the date in YYYY-MM-DD format that the value was measured.
 - **SLA_M_m2kg1 corrected**: If the value was subsequently adjusted, the updated value is
                 placed here. This entry can be blank.
-    
 ![New columns](images/Image_4.png)
 
 Press "Add Row" for each row of the plots to be added with the relevant info, or you can download an Excel file to edit offline.
@@ -52,3 +51,6 @@ Once completed, a filled Excel file can be imported to the table using the drop 
             Excel file. The spreadsheet columns are matched by the column header name so it is important if a treatment
             is added make sure they are present in the web form’s table too. The import will work without them but those
             columns will be ignored.
+               
+Importing through an Excel file will now be done at background without populating the table below the file drop area, after processing is done, a message will appear as below:
+![New columns](images/plot_excel_import.png)
