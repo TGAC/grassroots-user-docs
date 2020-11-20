@@ -7,7 +7,7 @@ The basic options present you with a text box where you can type in your query a
 
  * **Any**: Return all hits
  * **Dataset**: Only return matching datasets on the [DFW Data Portal](https://opendata.earlham.ac.uk/wheat).
- * **Service**: Only return services that either perform a function that matches the search term or can act upon some data that matches it. For example, if you searched for Paragon, a BLAST service that had a Paragon database would produce a match here.
+ * **Service**: Only return services that either perform a function that matches the search term or can act upon some data that matches it. For example, if you searched for *Paragon*, a BLAST service that had a Paragon database would produce a match here.
  * **Field Trial**: Only return matching Field Trials from the [Field Trial service](https://grassroots.tools/docs/user/services/field_trial/).
  * **Study**: Only return matching Studies from the [Field Trial service](https://grassroots.tools/docs/user/services/field_trial/).
  * **Location**: Only return matching Locations from the [Field Trial service](https://grassroots.tools/docs/user/services/field_trial/).
