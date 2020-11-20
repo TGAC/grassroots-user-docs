@@ -1,7 +1,7 @@
 ##Introduction
 
 Given that a Grassroots system contains disparate services and a wide variety of data and metadata, it can sometimes be difficult to find the content taht you are interested in. 
-To address this, we have created a search service. This has a text box where you simply type in the keywords and this service will search across all of the services, data and metadata within the system and return the relevant results.
+To address this, we have created a search service. This has a text box where you simply type in the keywords and this service will search across all of the services, data and metadata within the system and return the relevant results. The service is available at [https://grassroots.tools/public/service/search](https://grassroots.tools/public/service/search).
 
 The basic options present you with a text box where you can type in your query and an option to restrict the results to a particular type. Currently the list of types are 
 
@@ -15,3 +15,4 @@ The basic options present you with a text box where you can type in your query a
  * **Programme**: Only return matching Programmes from the [Field Trial service](https://grassroots.tools/docs/user/services/field_trial/).
 
 ![The form for submitting a search](images/basic_options.png "Submit a search")
+
