@@ -51,5 +51,6 @@ Registering for an ORCID takes a couple of minutes and will not expose any perso
 
 * [Field Trial Search Portal](https://grassroots.tools/docs/user/services/field_trial/search_portal.md)
 * [Search Measured Variables](https://grassroots.tools/docs/user/services/field_trial/search_measured_variables.md)
+* [Search Treatmnets](https://grassroots.tools/docs/user/services/field_trial/search_treatments.md)
 
         

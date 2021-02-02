@@ -88,7 +88,7 @@ For example, we could have chosen [PECO:0007102](http://draco.cyverse.org/amigo/
 interested in. This is *nitrogen fertilizer exposure*. Then in the table of values we could have 
 
 | Label | Value |
-| ------|-------|
+| :---: | :---: |
 | N1    | 0-20 mg/L |
 | N2    | 21-50 mg/L |
 | N3    | 51+ mg/L |
