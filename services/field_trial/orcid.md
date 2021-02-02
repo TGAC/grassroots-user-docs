@@ -1,6 +1,6 @@
 # ORCID and accessing selected Grassroots services and data
 
-Some of the tools and data for Grassroots are only available for authenticated users. This is an attempt to stop anyone accessing the system and potentially corrupting the data or submitting fake results. For example, all of the services at [https://grassroots.tools/private/service](https://grassroots.tools/private/service) require authentication. This document is a guide on how to register with ORCID, the non-profit organisation that aims to uniquely identify researchers in order to track research outputs, funding, etc.
+Some of the tools and data for Grassroots are only available for authenticated users. This is an attempt to stop anyone accessing the system and potentially corrupting the data or submitting fake results. For example, all of the services at [https://grassroots.tools/private/service](https://grassroots.tools/private/service) require authentication. This document is a guide on how to register with ORCID, the non-profit organisation that aims to uniquely identify researchers in order to track research outputs, funding, *etc.*
 
 ORCID iDs are becoming commonplace in academic publishing as a mechanism to identify authors, and funding bodies to identify researchers that are associated with grants, for example. The benefits of ORCID is that you will be associated with any data you submit to Grassroots thus getting credit for your work, and you only ever have to sign up once.
 

@@ -36,7 +36,7 @@ main forms that you will need to complete and has a number of fields:
       Study
  * **Link**: If there is a web page relating to this Study with more information that will be
       of interest to users, it can be specified here.
-  * **Plots GPS**: If you have a GeoSJON file with the layout of the plots within the field, you can submit it here.  
+  * **Plots GPS**: If you have a GeoJSON file with the layout of the plots within the field, you can submit it here.  
 
 ### Layout
 
@@ -84,7 +84,7 @@ This is a table with two columns:
 as its heading.
 * **Value**: This is the actual value or range of values that the label refers to. 
 
-For example, we could choose [PECO:0007102](http://draco.cyverse.org/amigo/term/PECO:0007102), which is the onotoloigy term defining *nitrogen fertilizer exposure*, as the Treatment that we are 
+For example, we could choose [PECO:0007102](http://draco.cyverse.org/amigo/term/PECO:0007102), which is the ontology term defining *nitrogen fertilizer exposure*, as the Treatment that we are 
 interested in. Then, in its table of values, we could have 
 
 | Label | Value |

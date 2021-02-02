@@ -2,7 +2,7 @@
 
 URL: [https://grassroots.tools/public/service/field_trial-search_treatments](https://grassroots.tools/public/service/field_trial-search_treatments)
 
-![Search treatements](images/Image_5.png)
+![Search treatments](images/Image_5.png)
 
 As you start to type in the search box, treatments will be returned that match your query. This search system
             allows you to click on a row to copy the **Variable Name**, which can then be pasted as a

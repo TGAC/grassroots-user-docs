@@ -30,7 +30,7 @@ The various services are described in more detail below, however for easy access
 
 ### Registering an ORCID
 
-To submit data into the DFW Field Trial system, you need to have an ORCID - a unique identifier that can be used to record your institution, affiliations, funding, publications, *etc.* ORCIDs are becoming favoured by funders, journals, and services like grassroots because it allows: 
+To submit data into the DFW Field Trial system, you need to have an ORCID - a unique identifier that can be used to record your institution, affiliations, funding, publications, *etc.* ORCIDs are becoming favoured by funders, journals, and services like Grassroots because it allows: 
 
  * science outputs to be attributable to an individual even if they move employment and 
  * the use of ORCIDs as an authentication mechanism to identify people who are able to use specific services. 
@@ -51,6 +51,6 @@ Registering for an ORCID takes a couple of minutes and will not expose any perso
 
 * [Field Trial Search Portal](https://grassroots.tools/docs/user/services/field_trial/search_portal.md)
 * [Search Measured Variables](https://grassroots.tools/docs/user/services/field_trial/search_measured_variables.md)
-* [Search Treatmnets](https://grassroots.tools/docs/user/services/field_trial/search_treatments.md)
+* [Search Treatments](https://grassroots.tools/docs/user/services/field_trial/search_treatments.md)
 
         
