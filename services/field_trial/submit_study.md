@@ -85,7 +85,7 @@ as its heading.
 * **Value**: This is the actual value or range of values that the label refers to. 
 
 For example, we could choose [PECO:0007102](http://draco.cyverse.org/amigo/term/PECO:0007102), which is the onotoloigy term defining *nitrogen fertilizer exposure*, as the Treatment that we are 
-interested in. Then in its table of values we could have 
+interested in. Then, in its table of values, we could have 
 
 | Label | Value |
 | :---: | :---: |
