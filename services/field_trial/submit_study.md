@@ -84,8 +84,8 @@ This is a table with two columns:
 as its heading.
 * **Value**: This is the actual value or range of values that the label refers to. 
 
-For example, we could have chosen [PECO:0007102](http://draco.cyverse.org/amigo/term/PECO:0007102) as the Treatment that we are 
-interested in. This is *nitrogen fertilizer exposure*. Then in the table of values we could have 
+For example, we could choose [PECO:0007102](http://draco.cyverse.org/amigo/term/PECO:0007102), which is the onotoloigy term defining *nitrogen fertilizer exposure*, as the Treatment that we are 
+interested in. Then in its table of values we could have 
 
 | Label | Value |
 | :---: | :---: |
@@ -94,6 +94,6 @@ interested in. This is *nitrogen fertilizer exposure*. Then in the table of valu
 | N3    | 51+ mg/L |
 
 
-So when [submitting Plots](submit_plots.md), you can have a column with PECO:0007102 as the header and either N1, N2 or N3 as the 
+So when [submitting Plots](submit_plots.md), you can have a column in the spreadsheet with PECO:0007102 as the header and either N1, N2 or N3 as the 
 values for each Plot entry row.
 
