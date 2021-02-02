@@ -72,3 +72,28 @@ To automatically generate the spreadsheet of Plot data, at least both of the *Nu
 *Number of plot columns* parameters need to be specified. Grassroots will generate a row in the
 spreadsheet for each unique possible combination of the row, column and replicate values.
 
+### Treatment Factors
+
+You can specify *Treatment Factors* that are used in this Study so that they can be added to the Plots spreadsheet
+data. To begin with find the *Treatments* that you want to use in this Study by using the [Search Treatments](search_treatments.md)
+service and put the unique name of the Treatment, it will likely begin with PECO:, into the *Treatment name* box. 
+Next you can define the Treatment Factor values that you wish to use in the *Treatment Factors to upload* field.
+This is a table with two columns:
+
+* **Label**: This is value that will be put into each row of the spreadsheet in the column that has the unique name of the Treatment
+as its heading.
+* **Value**: This is the actual value or range of values that the label refers to. 
+
+For example, we could have chosen [PECO:0007102](http://draco.cyverse.org/amigo/term/PECO:0007102) as the Treatment that we are 
+interested in. This is *nitrogen fertilizer exposure*. Then in the table of values we could have 
+
+| Label | Value |
+| ------|-------|
+| N1    | 0-20 mg/L |
+| N2    | 21-50 mg/L |
+| N3    | 51+ mg/L |
+
+
+So when [submitting Plots](submit_plots.md), you can have a column with PECO:0007102 as the header and either N1, N2 or N3 as the 
+values for each Plot entry row.
+

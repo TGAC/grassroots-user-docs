@@ -1,13 +1,13 @@
-##Search Measured Variables
+##Search Treatments
 
-URL: [https://grassroots.tools/public/service/field_trial-search_measured_variables](https://grassroots.tools/public/service/field_trial-search_measured_variables)
+URL: [https://grassroots.tools/public/service/field_trial-search_treatments](https://grassroots.tools/public/service/field_trial-search_treatments)
 
-![Search measured variables](images/Image_5.png)
+![Search treatements](images/Image_5.png)
 
-As you start to type in the search box, Measured Variables will be returned that match your query. This search system
+As you start to type in the search box, treatments will be returned that match your query. This search system
             allows you to click on a row to copy the **Variable Name**, which can then be pasted as a
             column header in your spreadsheet, or any other documentation or publications. It is good practice to
-            include these terms wherever possible as the Variable Name is unique, and this reduces ambiguity or
+            include these terms wherever possible as the Treatment Name is unique, and this reduces ambiguity or
             confusion when describing your measurements or measurement method.
 
 Start by typing the search phrase into the search box, results will appear below as a table. Select the row
