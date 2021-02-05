@@ -97,3 +97,6 @@ interested in. Then, in its table of values, we could have
 So when [submitting Plots](submit_plots.md), you can have a column in the spreadsheet with PECO:0007102 as the header and either N1, N2 or N3 as the 
 values for each Plot entry row.
 
+![Add Treatment Factors](images/submit_study_treatment_factors.png)
+
+Press the + button to add a new set of treatment factors, and under each of them press Add Row to add new Labels and Values.
