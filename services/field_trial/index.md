@@ -4,10 +4,10 @@ The Grassroots system running at the Earlham Institute (EI) is being used to gat
 Typically this information is collected within spreadsheets and Work Package 4 (WP4) has been working with field managers and biologists to standardise these spreadsheets and collection mechanisms.
 The standards we have produced follow the same concepts as the [Breeding API (BrAPI)](https://brapi.org/), a technical solution to use these standards to make genotyping, phenotyping and trial data interoperable and reusable.
 
-The top level of the BrAPI hierarchy is a **Program** which, initially for us, is the DFW programme. 
-We can store non-DFW data and create the relevant Programs for such data, however our initial focus is on DFW data.
+The top level of the BrAPI hierarchy is a **Programme** which, initially for us, is the DFW programme. 
+We can store non-DFW data and create the relevant Programmes for such data, however our initial focus is on DFW data.
 
-Each Program can contain one or more **Trials**, which BrAPI defines as the equivalent of an 
+Each Programme can contain one or more **Trials**, which BrAPI defines as the equivalent of an 
 "investigation" in the [Minimal Information about a Plant Phenotyping Experiment (MIAPPE)](https://www.miappe.org/) standard.
 
 Trials can consist of one or more experiments where seeds are sown and phenotypic information is gathered and each of these is called a **Study**. 
@@ -41,7 +41,7 @@ Registering for an ORCID takes a couple of minutes and will not expose any perso
 
 ### Submitting data:
 
- * [Submitting a Program](https://grassroots.tools/docs/user/services/field_trial/submit_program.md)
+ * [Submitting a Programme](https://grassroots.tools/docs/user/services/field_trial/submit_programme.md)
  * [Submitting a Trial](https://grassroots.tools/docs/user/services/field_trial/submit_trial.md)
  * [Submitting a Location](https://grassroots.tools/docs/user/services/field_trial/submit_location.md)
  * [Submitting a Study](https://grassroots.tools/docs/user/services/field_trial/submit_study.md)
