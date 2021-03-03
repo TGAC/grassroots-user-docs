@@ -31,7 +31,7 @@ The spreadsheet contains:
 
 Treatment Factors can be added as extra columns. To specify the Treatment Factors to add search for the terms you want on the [Search Treatment Factors](https://grassroots.tools/docs/user/services/field_trial/search_treatments.md) page. The column headers that you need to put in the spreadsheet are the *Treatment Ontology* values from here.
 
-For example, if you wanted to add *Nitrogen fertilizer exposure* as a Treatment Factor to the spreadsheet, you would search at the above page and get a similar vie to the screenshot below
+For example, if you wanted to add *Nitrogen fertilizer exposure* as a Treatment Factor to the spreadsheet, you would search at the above page and get a similar view to the screenshot below
 
 ![Search for a Treatment](images/search_treatments_1.png)
 
