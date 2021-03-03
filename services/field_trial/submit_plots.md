@@ -18,7 +18,7 @@ The spreadsheet contains:
  * **Harvest date**: Harvest date of the plot in the format YYYY-MM-DD. If left blank, then the *Harvest date* specified for the Study will be used. 
  * **Width**: This is the width, in metres, of each plot. If left blank, then the *Plot width* specified for the Study will be used.
  * **Length**: This is the length, in metres, of each plot. If left blank, then the *Plot length* specified for the Study will be used.
- * **Plot ID** *: The ID of the rack. This is a number given to uniquely identify each rack in the Study similar to a primary key in a database. 
+ * **Plot ID** *: The ID of the plot. This is a number given to uniquely identify each rack in the Study similar to a primary key in a database. 
 	If GeoJSON and/or images are available, this will be used to identify which plot this information refers to. 
  * **Row**: Row number of the plot. The numbering starts at 1 at the left-hand edge of the plots.
  * **Column**: Column number of the plot. The numbering starts at 1 at the bottom-edge of the plots.
@@ -31,7 +31,7 @@ The spreadsheet contains:
 
 Treatment Factors can be added as extra columns. To specify the Treatment Factors to add search for the terms you want on the [Search Treatment Factors](https://grassroots.tools/docs/user/services/field_trial/search_treatments.md) page. The column headers that you need to put in the spreadsheet are the *Treatment Ontology* values from here.
 
-For example, if you wanted to add *Nitrogen fertilizer exposure* as a Treatment Factor to, you would search at the above page and get similar to the screenshot below
+For example, if you wanted to add *Nitrogen fertilizer exposure* as a Treatment Factor to the spreadsheet, you would search at the above page and get a similar vie to the screenshot below
 
 ![Search for a Treatment](images/search_treatments_1.png)
 
