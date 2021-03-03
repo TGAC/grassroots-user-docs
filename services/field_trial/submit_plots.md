@@ -18,7 +18,7 @@ The spreadsheet contains:
  * **Harvest date**: Harvest date of the plot in the format YYYY-MM-DD. If left blank, then the *Harvest date* specified for the Study will be used. 
  * **Width**: This is the width, in metres, of each plot. If left blank, then the *Plot width* specified for the Study will be used.
  * **Length**: This is the length, in metres, of each plot. If left blank, then the *Plot length* specified for the Study will be used.
- * **Rack ID** *: The ID of the rack. This is a number given to uniquely identify each rack in the Study similar to a primary key in a database. 
+ * **Plot ID** *: The ID of the rack. This is a number given to uniquely identify each rack in the Study similar to a primary key in a database. 
 	If GeoJSON and/or images are available, this will be used to identify which plot this information refers to. 
  * **Row**: Row number of the plot. The numbering starts at 1 at the left-hand edge of the plots.
  * **Column**: Column number of the plot. The numbering starts at 1 at the bottom-edge of the plots.
@@ -26,7 +26,20 @@ The spreadsheet contains:
  * **Rack**: For the Plot at the given Row and Column, this is the number of the cassette that is filled with the material to sow before drilling.
  * **Accession**: This is the unique identifier from a particular seed/gene bank to identify the material. Currently the Germplasm Resource Unit (GRU) at the John Innes Centre is the only available seed bank, more will be added in the future, and the value that should be used is what they refer to as the *Accession Name*. For example, for the material detailed [here](https://www.seedstor.ac.uk/search-infoaccession.php?idPlant=39145) the accession name is *PW468-84-1-15-Q2B-MATU-P*. If the accession can be found in the GRU, it will change the background colour to green otherwise it will be blue.
  * **Comment**: Any comments for the plot.
- * **and measured variables columns**: Extra columns you added with the method below:
+
+### Treatment Factors
+
+Treatment Factors can be added as extra columns. To specify the Treatment Factors to add search for the terms you want on the [Search Treatment Factors](https://grassroots.tools/docs/user/services/field_trial/search_treatments.md) page. The column headers that you need to put in the spreadsheet are the *Treatment Ontology* values from here.
+
+For example, if you wanted to add *Nitrogen fertilizer exposure* as a Treatment Factor to, you would search at the above page and get similar to the screenshot below
+
+![Search for a Treatment](images/search_treatments_1.png)
+
+Copy the value from the *Treatment Ontology* column, which in this example is *PECO:0007102* and add this as a column header to the plots spreadsheet
+
+### Measured Variables
+
+Measured Variables can be added as extra columns as follows:
 
 To add data, make sure to add the [Measured Variables](https://grassroots.tools/public/service/field_trial-search_measured_variables)
  first. They can be found
