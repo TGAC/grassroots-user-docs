@@ -8,9 +8,8 @@ Plots can be added to the study using a table
 
 Firstly, select the study that you wish to add the plots for from the drop down menu. The table and form on the page below will load the existing plot information from the database.
 
-![Add Measured Variables dialogue](images/Image_3.png)
 
-The spreadsheet contains:
+The columns that the spreadsheet can contain are:
 
  * **Sowing date**: Sowing date of the plot in the format YYYY-MM-DD. If left blank, then the *Sowing date* specified for the Study will be used.
  * **Harvest date**: Harvest date of the plot in the format YYYY-MM-DD. If left blank, then the *Harvest date* specified for the Study will be used.
@@ -24,11 +23,13 @@ The spreadsheet contains:
  * **Rack**: For the Plot at the given Row and Column, this is the number of the cassette that is filled with the material to sow before drilling.
  * **Accession**: This is the unique identifier from a particular seed/gene bank to identify the material. Currently the Germplasm Resource Unit (GRU) at the John Innes Centre is the only available seed bank, more will be added in the future, and the value that should be used is what they refer to as the *Accession Name*. For example, for the material detailed [here](https://www.seedstor.ac.uk/search-infoaccession.php?idPlant=39145) the accession name is *PW468-84-1-15-Q2B-MATU-P*. If the accession can be found in the GRU, it will change the background colour to green otherwise it will be blue.
  * **Comment**: Any comments for the plot.
- * **Image**: If there is a full-sized images of this plot, enter the web address of it here. If you need a web address to upload this to, please contact the Grassroots team so we can arrange to host the image.
- * **Thumbnail**: If there is a thumbnail images of this plot, enter the web address of it here. If you need a web address to upload this to, please contact the Grassroots team so we can arrange to host the image.
+ * **Image**: If there is a full-sized image of this plot, enter the web address of it here. If you need a web address to upload this to, please contact the Grassroots team so we can arrange to host the image.
+ * **Thumbnail**: If there is a thumbnail image of this plot, enter the web address of it here. If you need a web address to upload this to, please contact the Grassroots team so we can arrange to host the image.
+ * **Sowing order**: The order in which the plots were sown.
+ * **Walking order**: The order in which the plots were walked between.
 
 
-As well as these columns, you can also add columns to specify Treatmnet Factors, for crop treatments of the plot, and Measured Variables for phenotypic values.
+All of the column headings are case-sensitive and the order of them in your spreadsheet does not matter. As well as these columns, you can also add columns to specify Treatment Factors, for crop treatments of the plot, and Measured Variables for phenotypic values.
 
 ### Treatment Factors
 
@@ -44,9 +45,12 @@ Copy the value from the *Treatment Ontology* column, which in this example is *P
 
 Measured Variables can be added as extra columns as follows:
 
+![Add Measured Variables dialogue](images/Image_3.png)
+
+
 To add data, make sure to add the [Measured Variables](https://grassroots.tools/public/service/field_trial-search_measured_variables)
  first. They can be found
-            from the page in the link above, when a Measured Variable is entered in the above popup window (*e.g.*
+            from the page in the link above, when a Measured Variable is entered in the above pop-up window (*e.g.*
             SLA_M_m2kg1), three new columns will be created in the table. These three columns are for the phenotypic
             value, the date in YYYY-MM-DD format that the value was measured and a column for any corrected value that
             is calculated after further analysis. These columns are the name of the Measured Variable, the name followed
