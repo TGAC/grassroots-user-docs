@@ -15,7 +15,7 @@ These contain a variety of data, such as weather information, experimental desig
 To add a Study to the system you need to define both the Field Trial that it is part of and the Location where it
 took place.
 
-For each Study, you can specify the set of phenotypes that will be measured and these are called **Measured Variables**. Each of these consist of unique *triples* (three distinct pieces of information) that define:
+For each Study, you can specify the set of phenotypes that will be measured and these are called **Measured Phenotype Variables**. Each of these consist of unique *triples* (three distinct pieces of information) that define:
 
  1. A phenotype
  2. How it has been measured 
@@ -50,7 +50,7 @@ Registering for an ORCID takes a couple of minutes and will not expose any perso
 ### Searching the system:
 
 * [Field Trial Search Portal](https://grassroots.tools/docs/user/services/field_trial/search_portal.md)
-* [Search Measured Variables](https://grassroots.tools/docs/user/services/field_trial/search_measured_variables.md)
+* [Search Measured Phenotype Variables](https://grassroots.tools/docs/user/services/field_trial/search_measured_variables.md)
 * [Search Treatments](https://grassroots.tools/docs/user/services/field_trial/search_treatments.md)
 
         
