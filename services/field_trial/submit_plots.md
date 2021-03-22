@@ -17,10 +17,10 @@ The columns that the spreadsheet can contain are:
  * **Length**: This is the length, in metres, of each plot. If left blank, then the *Plot length* specified for the Study will be used.
  * **Plot ID** *: The ID of the plot. This is a number given to uniquely identify each rack in the Study similar to a primary key in a database.
 	If GeoJSON and/or images are available, this will be used to identify which plot this information refers to.
- * **Row**: Row number of the plot. The numbering starts at 1 at the left-hand edge of the plots.
- * **Column**: Column number of the plot. The numbering starts at 1 at the bottom-edge of the plots.
+ * **Row** *: Row number of the plot. The numbering starts at 1 at the left-hand edge of the plots.
+ * **Column** *: Column number of the plot. The numbering starts at 1 at the bottom-edge of the plots.
  * **Replicate**: Replicate number for this sample. This field can also have *control* to denote an experimental control sample.
- * **Rack**: For the Plot at the given Row and Column, this is the number of the cassette that is filled with the material to sow before drilling.
+ * **Rack** *: For the Plot at the given Row and Column, this is the number of the cassette that is filled with the material to sow before drilling.
  * **Accession**: This is the unique identifier from a particular seed/gene bank to identify the material. Currently the Germplasm Resource Unit (GRU) at the John Innes Centre is the only available seed bank, more will be added in the future, and the value that should be used is what they refer to as the *Accession Name*. For example, for the material detailed [here](https://www.seedstor.ac.uk/search-infoaccession.php?idPlant=39145) the accession name is *PW468-84-1-15-Q2B-MATU-P*. If the accession can be found in the GRU, it will change the background colour to green otherwise it will be blue.
  * **Comment**: Any comments for the plot.
  * **Image**: If there is a full-sized image of this plot, enter the web address of it here. If you need a web address to upload this to, please contact the Grassroots team so we can arrange to host the image.
@@ -28,6 +28,7 @@ The columns that the spreadsheet can contain are:
  * **Sowing order**: The order in which the plots were sown.
  * **Walking order**: The order in which the plots were walked between.
 
+* denotes the required values for each row in the spreadsheet.
 
 All of the column headings are case-sensitive and the order of them in your spreadsheet does not matter. As well as these columns, you can also add columns to specify Treatment Factors, for crop treatments of the plot, and Measured Variables for phenotypic values.
 
