@@ -13,7 +13,7 @@ A Programme consists of the following pieces of information
  * **Web address**: If there is a web page associated with this Programme, you can enter it here.
  * **Principal Investigator Name** *: This is the name of lead person for this Programme.
  * **Principal Investigator Email** *: This is the email of lead person for this Programme.
- * **Logo** *: The web address of a file to use for the Programme logo. If the one you wish to use
+ * **Logo**: The web address of a file to use for the Programme logo. If the one you wish to use
    doesn't have a web address, get in touch with us as we can add it to the grasssroots.tools website
    and then be able to use that address here.
 
