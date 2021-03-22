@@ -28,7 +28,7 @@ The columns that the spreadsheet can contain are:
  * **Sowing order**: The order in which the plots were sown.
  * **Walking order**: The order in which the plots were walked between.
 
-* denotes the required values for each row in the spreadsheet.
+\* denotes the required values for each row in the spreadsheet.
 
 All of the column headings are case-sensitive and the order of them in your spreadsheet does not matter. As well as these columns, you can also add columns to specify Treatment Factors, for crop treatments of the plot, and Measured Variables for phenotypic values.
 
