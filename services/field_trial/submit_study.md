@@ -40,7 +40,7 @@ main forms that you will need to complete and has a number of fields:
     To map the plots defined in this Study to the shapes in this file, we have a value called *plot_no* which is set
     to the id of the relevant plot. For instance the following snippet has the shape details for *plot_no* of 60 which 
     refers to the plot with *Plot ID* of 60 in the table uploaded when 
-    [submitting plots](https://grassroots.tools/private/service/field_trial-submit_study).
+    [submitting plots](https://grassroots.tools/docs/user/services/field_trial/submit_plots.md).
 
 ``` {.json}
 {
