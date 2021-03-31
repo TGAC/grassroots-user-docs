@@ -41,7 +41,8 @@ main forms that you will need to complete and has a number of fields:
     to the id of the relevant plot. For instance the following snippet has the shape details for *plot_no* of 60 which 
     refers to the plot with *Plot ID* of 60 in the table uploaded when 
     [submitting plots](https://grassroots.tools/private/service/field_trial-submit_study).
-```
+
+``` {.json}
 {
 	"type": "Feature",
 	"properties": {
