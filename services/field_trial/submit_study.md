@@ -36,7 +36,37 @@ main forms that you will need to complete and has a number of fields:
       Study
  * **Link**: If there is a web page relating to this Study with more information that will be
       of interest to users, it can be specified here.
-  * **Plots GPS**: If you have a GeoJSON file with the layout of the plots within the field, you can submit it here.  
+  * **Plots GPS**: If you have a GeoJSON file with the layout of the plots within the field, you can submit it here.
+    To map the plots defined in this Study to the shapes in this file, we have a value called *plot_no* which is set
+    to the id of the relevant plot. For instance the following snippet has the shape details for *plot_no* of 60 which 
+    refers to the plot with *Plot ID* of 60 in the table uploaded when 
+    [submitting plots](https://grassroots.tools/private/service/field_trial-submit_study).
+```
+{
+	"type": "Feature",
+	"properties": {
+		"Id": 0,
+		"plot_no": 60,
+		"BUFF_DIST": -0.2,
+		"ORIG_FID": 5
+	},
+	"geometry": {
+		"type": "MultiPolygon",
+		"coordinates": [
+			[
+				[
+					[-0.396041480123381, 51.803951709489667],
+					[-0.396060782373093, 51.803947819495299],
+					[-0.396099327120226, 51.804021327278761],
+					[-0.396080024842019, 51.804025217279019],
+					[-0.396041480123381, 51.803951709489667]
+				]
+			]
+		]
+	}
+}
+```
+ 
 
 ### Layout
 
