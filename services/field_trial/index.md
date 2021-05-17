@@ -53,4 +53,6 @@ Registering for an ORCID takes a couple of minutes and will not expose any perso
 * [Search Measured Phenotype Variables](https://grassroots.tools/docs/user/services/field_trial/search_measured_variables.md)
 * [Search Treatments](https://grassroots.tools/docs/user/services/field_trial/search_treatments.md)
 
-        
+### Getting the data:
+* [Downloading Study data](https://grassroots.tools/docs/user/services/field_trial/download_study_fd.md)
+         
