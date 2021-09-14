@@ -50,15 +50,28 @@ Measured Variables can be added as extra columns as follows:
 
 
 To add data, make sure to add the [Measured Variables](https://grassroots.tools/public/service/field_trial-search_measured_variables) first. 
-They can be found from the page in the link above, when a Measured Variable is entered in the above pop-up window (*e.g.* SLA_M_m2kg1), 
-three new columns will be created in the table. These three columns are for the phenotypic value, the date in YYYY-MM-DD format that the value was measured and a column for any corrected value that is calculated after further analysis. These columns are the name of the Measured Variable, 
-the name followed by " date" and the name followed by " corrected". So for our example Measured Variable above, the three columns would be:
+They can be found from the page in the link above. 
 
-- **SLA_M_m2kg1**: This is the raw phenotypic value for SLA_M_m2kg1.
-- **SLA_M_m2kg1 date**: This is the date in YYYY-MM-DD format that the value was measured.
-- **SLA_M_m2kg1 corrected**: If the value was subsequently adjusted, the updated value is
-                placed here. This entry can be blank.
-![New columns](images/Image_4.png)
+The first value in any of the column headers that you add must be the name of the Measured Variable. You can then add extra text to these headers to specify a date that the observation applies too and whether the values in this column are corrected, rather than raw, values. If the value was measured on a single date, then you can add a date here.  Likewise if the measurements were taken over a range of days, you can specify both a start and an end date. These dates can be in one of two formats: one for a day and one for a specfic time on a day.
+
+For dates that refer to a day the format is **YYYY-MM-DD**, where *YYYY* is the 4-digit year, *MM* is the 2-digit month and *DD* is the 2-digit day of the month. If you wish to specify a time as well then the format is **YYYY-MM-DDThh:mm:ss** where *hh* is the 2-digit hour, *mm* is the 2-digit minute and *ss* is the 2-digit second.
+
+As well as adding dates you can also specify whether the values in the given column are raw or corrected values. By default, tthe values within a column are assumed to be raw values. You can change these to corrected values by adding *corrected* (all lower case) within the column header. Some examples are given below:
+
+
+| Column | Description |
+| -- -| --- |
+| **PH_M_cm** | Plant height on unspecified date|
+| **PH_M_cm 2020-12-01** | Plant height measured on 01 Dec 2020 |
+| **PH_M_cm 2020-12-01 2020-12-03** | Plant height measured on 01 Dec 2020 to 03 Dec 2020.|
+| **PH_M_cm corrected ** | Plant height corrected value on unspecified date|
+| **PH_M_cm 2020-12-01T09:30:00** | Plant height measured on at 9:30 AM on 01 Dec 2020|
+| **PH_M_cm 2020-12-01T09:30:00 2020-12-03T12:15:30** | Plant height measured from 9:30 AM 01 Dec 2020 to 12:15:30 PM on 03 Dec 2020.|
+| **PH_M_cm 2020-12-01T09:30:00 corrected** | Corrected plant height measured on at 9:30 AM on 01 Dec 2020|
+| **PH_M_cm 2020-12-01T09:30:00 2020-12-03T12:15:30 corrected** | Corrected plant height measured from 9:30 AM 01 Dec 2020 to 12:15:30 PM on 03 Dec 2020.|
+
+
+
 
 Press "Add Row" for each row of the plots to be added with the relevant info, or you can download an Excel file to edit offline.
 
