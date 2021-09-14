@@ -49,14 +49,10 @@ Measured Variables can be added as extra columns as follows:
 ![Add Measured Variables dialogue](images/Image_3.png)
 
 
-To add data, make sure to add the [Measured Variables](https://grassroots.tools/public/service/field_trial-search_measured_variables)
- first. They can be found
-            from the page in the link above, when a Measured Variable is entered in the above pop-up window (*e.g.*
-            SLA_M_m2kg1), three new columns will be created in the table. These three columns are for the phenotypic
-            value, the date in YYYY-MM-DD format that the value was measured and a column for any corrected value that
-            is calculated after further analysis. These columns are the name of the Measured Variable, the name followed
-            by " date" and the name followed by " corrected". So for our example Measured Variable above, the three
-            columns would be:
+To add data, make sure to add the [Measured Variables](https://grassroots.tools/public/service/field_trial-search_measured_variables) first. 
+They can be found from the page in the link above, when a Measured Variable is entered in the above pop-up window (*e.g.* SLA_M_m2kg1), 
+three new columns will be created in the table. These three columns are for the phenotypic value, the date in YYYY-MM-DD format that the value was measured and a column for any corrected value that is calculated after further analysis. These columns are the name of the Measured Variable, 
+the name followed by " date" and the name followed by " corrected". So for our example Measured Variable above, the three columns would be:
 
 - **SLA_M_m2kg1**: This is the raw phenotypic value for SLA_M_m2kg1.
 - **SLA_M_m2kg1 date**: This is the date in YYYY-MM-DD format that the value was measured.
