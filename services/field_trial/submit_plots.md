@@ -56,20 +56,25 @@ The first value in any of the column headers that you add must be the name of th
 
 For dates that refer to a day the format is **YYYY-MM-DD**, where *YYYY* is the 4-digit year, *MM* is the 2-digit month and *DD* is the 2-digit day of the month. If you wish to specify a time as well then the format is **YYYY-MM-DDThh:mm:ss** where *hh* is the 2-digit hour, *mm* is the 2-digit minute and *ss* is the 2-digit second.
 
-As well as adding dates you can also specify whether the values in the given column are raw or corrected values. By default, tthe values within a column are assumed to be raw values. You can change these to corrected values by adding *corrected* (all lower case) within the column header. Some examples are given below:
+As well as adding dates you can also specify whether the values in the given column are raw or corrected values. By default, the values within a column are assumed to be raw values. You can change these to corrected values by adding *corrected* (all lower case) within the column header. 
+
+You can also store multiple data points for a given trait in a given plot, for example plant heights from 5 different points within a plot. This is done by adding **sample_n** within the column header where *n* is a number starting starting from 1 and going on to 2, 3, 4, *etc.* as needed. When this is omitted, samples have a default index of 1.
+
+Some examples are given below:
 
 
 | Column | Description |
 | -- -| --- |
 | **PH_M_cm** | Plant height on unspecified date|
 | **PH_M_cm 2020-12-01** | Plant height measured on 01 Dec 2020 |
-| **PH_M_cm 2020-12-01 2020-12-03** | Plant height measured on 01 Dec 2020 to 03 Dec 2020.|
-| **PH_M_cm corrected ** | Plant height corrected value on unspecified date|
+| **PH_M_cm 2020-12-01 2020-12-03** | Plant height measured on 01 Dec 2020 to 03 Dec 202|
+| **PH_M_cm corrected** | Plant height corrected value on unspecified date|
 | **PH_M_cm 2020-12-01T09:30:00** | Plant height measured on at 9:30 AM on 01 Dec 2020|
-| **PH_M_cm 2020-12-01T09:30:00 2020-12-03T12:15:30** | Plant height measured from 9:30 AM 01 Dec 2020 to 12:15:30 PM on 03 Dec 2020.|
+| **PH_M_cm 2020-12-01T09:30:00 2020-12-03T12:15:30** | Plant height measured from 9:30 AM 01 Dec 2020 to 12:15:30 PM on 03 Dec 2020|
 | **PH_M_cm 2020-12-01T09:30:00 corrected** | Corrected plant height measured on at 9:30 AM on 01 Dec 2020|
-| **PH_M_cm 2020-12-01T09:30:00 2020-12-03T12:15:30 corrected** | Corrected plant height measured from 9:30 AM 01 Dec 2020 to 12:15:30 PM on 03 Dec 2020.|
-
+| **PH_M_cm 2020-12-01T09:30:00 2020-12-03T12:15:30 corrected** | Corrected plant height measured from 9:30 AM 01 Dec 2020 to 12:15:30 PM on 03 Dec 2020|
+| **PH_M_cm 2020-12-01T09:30:00 sample_1** | A sample Plant height measured on at 9:30 AM on 01 Dec 2020 to be stored with an index of 1|
+| **PH_M_cm 2020-12-01T09:30:00 sample_2** | A sample Plant height measured on at 9:30 AM on 01 Dec 2020 to be stored with an index of 2|
 
 
 
