@@ -1,6 +1,6 @@
 ##Search Measured Phenotype Variables
 
-URL: [https://grassroots.tools/public/service/field_trial-search_measured_variables](https://grassroots.tools/public/service/field_trial-search_measured_variables)
+URL: [https://grassroots.tools/service/field_trial-search_measured_variables](https://grassroots.tools/service/field_trial-search_measured_variables)
 
 ![Search Measured Phenotype Variables](images/Image_5.png)
 

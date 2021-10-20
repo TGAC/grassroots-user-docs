@@ -1,6 +1,6 @@
 ## Field Trial Search Portal
 
-URL: [https://grassroots.tools/public/service/field_trial-search](https://grassroots.tools/public/service/field_trial-search)
+URL: [https://grassroots.tools/service/field_trial-search](https://grassroots.tools/public/service/field_trial-search)
 
 ![The form for searching Field Trials](images/Image_6.png)
 
@@ -13,7 +13,7 @@ Each Field trial and study can be opened in a new page via the links. They are s
 ![Map view with table below](images/Image_8.png)
 
 There is also a link to display all field trials:
-[https://grassroots.tools/public/dynamic/fieldtrial_dynamic.html?type=AllFieldTrials](https://grassroots.tools/public/dynamic/fieldtrial_dynamic.html?type=AllFieldTrials)
+[https://grassroots.tools/fieldtrial/](https://grassroots.tools/fieldtrial/)
 
 ##Field Trial Plots View
 

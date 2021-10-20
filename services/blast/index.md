@@ -5,9 +5,9 @@ It can compare nucleotide or protein sequences to sequence databases and calcula
 
 There are currently 3 BLAST Services that can be run within Grassroots:
 
- * **blastn** for searching nucleotide databases using nucleotide queries.
- * **blastp** for searching protein databases using protein queries.
- * **blastx** for searching protein databases using translated nucleotide queries.
+ * [blastn](https://grassroots.tools/service/blast-blastn) for searching nucleotide databases using nucleotide queries.
+ * [blastp](https://grassroots.tools/service/blast-blastp) for searching protein databases using protein queries.
+ * [blastx](https://grassroots.tools/service/blast-blastx) for searching protein databases using translated nucleotide queries.
 
 The standard form for entering a BLAST search consists of:
 

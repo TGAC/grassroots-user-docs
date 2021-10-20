@@ -1,6 +1,6 @@
 ##Search Treatments
 
-URL: [https://grassroots.tools/public/service/field_trial-search_treatments](https://grassroots.tools/public/service/field_trial-search_treatments)
+URL: [https://grassroots.tools/service/field_trial-search_treatments](https://grassroots.tools/service/field_trial-search_treatments)
 
 ![Search treatments](images/search-treatments.png)
 
