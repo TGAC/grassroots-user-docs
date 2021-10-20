@@ -13,6 +13,7 @@ The basic options present you with a text box where you can type in your query a
  * **Location**: Only return matching Locations from the [Field Trial service](https://grassroots.tools/docs/user/services/field_trial/).
  * **Measured Variable**: Only return matching Measured Variables from the [Field Trial service](https://grassroots.tools/docs/user/services/field_trial/).
  * **Programme**: Only return matching Programmes from the [Field Trial service](https://grassroots.tools/docs/user/services/field_trial/).
+ * **Publication**: Only return matching Publications from the [Designing Future Wheat (DFW) CKAN](https://ckan.grassroots.tools/), the digital repository for the UK-wide BBSRC wheat improvement programme, which holds all publications, open datasets, and partner project datasets related to DFW.
 
 ![The form for submitting a search](images/basic_options.png "Submit a search")
 
