@@ -8,6 +8,6 @@ A Trial consists of the following pieces of information
 
  * **Name** *: The name of the Field Trial.
  * **Team**: The team or group that are conducting the Field Trial.
- * **Program** *: This is the Program that this Field Trial is a part of.
+ * **Programme** *: This is the Programme that this Field Trial is a part of.
 
 ![The form for submitting a Field Trial](images/Image_0.png "Submit Field Trial")
