@@ -26,10 +26,9 @@ main forms that you will need to complete and has a number of fields:
       collection of phenotypes for this Study can be set.
  * **Weather**: If there is a system with the weather details for this Study, enter the web
       page for it here.
- * **Plan changes**: This is a free-text field where any notes for changes between the original
-      plan and the sowing can be detailed.
- * **Data not included**: This is a free-text field where any notes about omitted data can be added.
- * **Physical samples collected**: This is a free-text field where any details about the physcial samples that were collected can be added.
+ * **Plan changes**: This is a free-text field where any notes for changes to the Study field experiment plan.
+ * **Data not included**: This is a free-text field where any notes about data collected but not currently stored within Grassroots.
+ * **Physical samples collected**: This is a free-text field where any details about plant, soil or other samples collected.
  * **Crop**: This is the crop that has been sown for this Study. If the required crop is
       missing, please contact us to make it available in the system.
  * **Previous crop**: This is the crop that was previously sown in the field that this Study
