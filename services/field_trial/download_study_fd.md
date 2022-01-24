@@ -36,4 +36,32 @@ total 68
 
 where in this case `Designing_Future_Wheat.md` contains the details of the Programme, `DFW_Academic_Toolkit_Trials_.md` refers to the Field Trial, 
 `DFW_TKNIL_Set_2_JIC__Harvest_2018___Seedproduction.md` describes the Study and `DFW_TKNIL_Set_2_JIC__Harvest_2018___Seedproduction___Plots.csv`
-is the spreadsheet containing the data for the plots.
+is the spreadsheet containing the data for the plots.  
+If we take a look at the Study file we see that it contains the study data that has been submitted. For example, running 
+
+```
+cat "DFW_TKNIL_Set_2_JIC__Harvest_2018___Seedproduction.md"
+```
+
+gives the following output
+
+
+```
+billy@billy-desktop:~/Downloads/studies$ cat studies/DFW_TKNIL_Set_2_JIC__Harvest_2018___Seedproduction.md
+# DFW TKNIL Set 2 JIC, Harvest 2018 - Seedproduction
+
+ * **profile** *: [https://grassroots.tools/frictionless-data/schemas/field-trials/study-resource.json](https://grassroots.tools/frictionless-data/schemas/field-trials/study-resource.json)
+ * **id**: 5bcdc979618dc26d682e4a52
+ * **name** *: DFW TKNIL Set 2 JIC, Harvest 2018 - Seedproduction
+ * **location**: Mrs Salih's field
+ * **curator_name**: Luzie Wingen
+ * **curator_email**: [luzie.wingen@jic.ac.uk](mailto:luzie.wingen@jic.ac.uk)
+ * **contact_name**: Simon Griffiths
+ * **contact_email**: [simon.griffiths@jic.ac.uk](mailto:simon.griffiths@jic.ac.uk)
+ * **description**: NILs carrying different QTL regions identified in the DFW-NAM populations. QTL regions come from the landrace parents from the A.E. Watkins landrace collection.
+ * **design**: Two plots per accession in direct vicinity for seed multiplication.
+ * **crop**: wheat
+
+
+## treatments
+```
