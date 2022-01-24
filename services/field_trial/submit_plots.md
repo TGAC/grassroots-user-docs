@@ -49,7 +49,7 @@ Measured Variables can be added as extra columns as follows:
 ![Add Measured Variables dialogue](images/Image_3.png)
 
 
-To add data, make sure to add the [Measured Variables](https://grassroots.tools/public/service/field_trial-search_measured_variables) first. 
+To add data, make sure to add the [Measured Variables](https://grassroots.tools/service/field_trial-search_measured_variables) first. 
 They can be found from the page in the link above. 
 
 The first value in any of the column headers that you add must be the name of the Measured Variable. You can then add extra text to these headers to specify a date that the observation applies too and whether the values in this column are corrected, rather than raw, values. If the value was measured on a single date, then you can add a date here.  Likewise if the measurements were taken over a range of days, you can specify both a start and an end date. These dates can be in one of two formats: one for a day and one for a specfic time on a day.
