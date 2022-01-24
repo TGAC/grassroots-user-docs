@@ -33,3 +33,7 @@ total 68
 -rw-rw-r-- 1 billy billy   913 Jan 24 12:38 DFW_TKNIL_Set_2_JIC__Harvest_2018___Seedproduction.md
 -rw-rw-r-- 1 billy billy 55188 Jan 24 12:38 DFW_TKNIL_Set_2_JIC__Harvest_2018___Seedproduction___Plots.csv
 ```
+
+where in this case `Designing_Future_Wheat.md` contains the details of the Programme, `DFW_Academic_Toolkit_Trials_.md` refers to the Field Trial, 
+`DFW_TKNIL_Set_2_JIC__Harvest_2018___Seedproduction.md` describes the Study and `DFW_TKNIL_Set_2_JIC__Harvest_2018___Seedproduction___Plots.csv`
+is the spreadsheet containing the data for the plots.
