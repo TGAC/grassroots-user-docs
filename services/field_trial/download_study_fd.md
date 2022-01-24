@@ -18,9 +18,11 @@ As an example, we can download the Frictionless Data Package for a Study from th
 Once we have this file saved, we can run `grassroots_fd_tool` to extract the data from it. 
 
 To run it, getting the data in Markdown format and writing the output files to directory called `studies`, the command would be
+
 ```
 grassroots_frictionless_data_tool --in "DFW TKNIL Set 2 JIC, Harvest 2018 - Seedproduction.json" --data-fmt markdown --out-dir studies
 ```
+
 We can check the contents of the directory called `studies`. On Windows you can run `dir` or `ls -l` on Linux to see something similar to the following output:
 
 ```
