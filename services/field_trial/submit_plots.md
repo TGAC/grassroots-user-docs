@@ -30,6 +30,7 @@ Grassroots uses a system where each plot has a unique identifier There are a set
  * **Row** *: Row number of the plot. The numbering starts at 1 at the left-hand edge of the plots.
  * **Column** *: Column number of the plot. The numbering starts at 1 at the bottom-edge of the plots.
 
+
 As well as the required values listed above, there are a number of optional fields which can be applied to all plots and these are listed below.
 
  * **Width**: This is the width, in metres, of each plot. If left blank, then any *Plot width* specified for the Study when it has been submitted will be used.
