@@ -15,16 +15,16 @@ Each Field trial and study can be opened in a new page via the links. They are s
 There is also a link to display all field trials:
 [https://grassroots.tools/fieldtrial/](https://grassroots.tools/fieldtrial/)
 
-## Field Trial Plots View
+<!--## Field Trial Plots View-->
 
-From the Study page, it is possible to view the plots:
+<!--From the Study page, it is possible to view the plots:-->
 
-![Plot view](images/Image_9.png)
+<!--[Plot view](images/Image_9.png)-->
 
-Click on each of the plot to view detailed information:
+<!--Click on each of the plot to view detailed information:-->
 
-![Plot details](images/Image_10.png)
+<!--[Plot details](images/Image_10.png)-->
 
-Plots can be searched by their content from the search section on the right. Currently it is possible to search the crop accessions within the plot. More search functionalities are being added, *e.g.* phenotype search.
+<!--Plots can be searched by their content from the search section on the right. --Currently it is possible to search the crop accessions within the plot. More search --functionalities are being added, *e.g.* phenotype search. -->
 
-![Search plots](images/Image_11.png)
+<!--[Search plots](images/Image_11.png)-->
