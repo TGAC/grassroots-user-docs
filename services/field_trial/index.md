@@ -51,6 +51,7 @@ Registering for an ORCID takes a couple of minutes and will not expose any perso
 
 * [Main Field Trial Portal](https://grassroots.tools/docs/user/services/field_trial/fieldtrials_general_table.md)
 * [Plot Data](https://grassroots.tools/docs/user/services/field_trial/fieldtrials_study_table.md)
+* [Heatmaps](https://grassroots.tools/docs/user/services/field_trial/heatmaps.md)
 * [Field Trial Search Portal](https://grassroots.tools/docs/user/services/field_trial/search_portal.md)
 * [Search Measureld Phenotype Variables](https://grassroots.tools/docs/user/services/field_trial/search_measured_variables.md)
 * [Search Treatments](https://grassroots.tools/docs/user/services/field_trial/search_treatments.md)

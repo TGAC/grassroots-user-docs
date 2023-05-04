@@ -1,4 +1,4 @@
-<!--## Field Trial Study View-->
+## Plot Data View
 
 
 When a given study has plot data available, a link will be available in its study  page or directly in the main table of studies. The same UUID from the study can be used to access the plot data in this form:
