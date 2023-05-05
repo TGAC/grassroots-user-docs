@@ -9,7 +9,7 @@ When a given study has plot data available, a link will be available in its stud
 For example, the study with UUID `603e3e9502700f7faf25dfb4` has plot data. The table can be access using the following link: [https://grassroots.tools/fieldtrial/plots/603e3e9502700f7faf25dfb4](https://grassroots.tools/fieldtrial/plots/603e3e9502700f7faf25dfb4)
 
 
-![Plot details](images/3_plot_table.png)
+![Plot details](images/3_plot_table_B.png)
 
 
 To display the data of a specific plot, select a plot from the table. A popup window will appear with the plot details. For example, row 1, column 3 will show the next information:
