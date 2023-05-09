@@ -1,6 +1,6 @@
-## Downloading Studies
+## Downloading Studies as Frictionless Data Packages
 
-A key idea behind Grassroots is to allow for reuse of data and metadata as seamlessley as possible. 
+A key idea behind Grassroots is to allow for reuse of data and metadata as seamlessly as possible. 
 We have Application Programming Interfaces (APIs) for developers to use, however for users just trying to get all of a study’s data, a simpler solution is needed.
 So we have added the ability to download all of the data and metadata for a Study contained in a single file as a [Frictionless Data Package](https://frictionlessdata.io/). 
 There are more details available [here](https://grassroots.tools/frictionless-data/).
