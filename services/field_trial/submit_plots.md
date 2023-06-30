@@ -2,11 +2,15 @@
 
 The form for submitting or editing existing Plots is available at  [https://grassroots.tools/private/service/field_trial-submit_plots](https://grassroots.tools/private/service/field_trial-submit_plots)
 
-Plots can be added to the study using a table
-
-![The form for submitting field trial plots](images/Image_2.png)
-
 Firstly, select the study that you wish to add the plots for from the drop down menu. The table and form on the page below will load the existing plot information from the database.
+
+![The form for submitting field trial plots](images/7_submit_plot_service.png)
+
+Then drag and drop the excel file that constains the plot observations. This will populate the table with the data that will be submitted.
+
+![The form for submitting field trial plots](images/7_submit_plot_table.png)
+
+The file should be in the format described below.
 
 ## Types of Plots
 
@@ -105,16 +109,3 @@ Some examples are given below:
 | **PH_M_cm 2020-12-01T09:30:00 sample_1** | A sample Plant height measured on at 9:30 AM on 01 Dec 2020 to be stored with an index of 1|
 | **PH_M_cm 2020-12-01T09:30:00 sample_2** | A sample Plant height measured on at 9:30 AM on 01 Dec 2020 to be stored with an index of 2|
 
-
-
-Press "Add Row" for each row of the plots to be added with the relevant info, or you can download an Excel file to edit offline.
-
-
-Once completed, a filled Excel file can be imported to the table using the drop zone above the table with the
-            heading *Plot data to upload*. The table will then be filled with the information from the uploaded
-            Excel file. The spreadsheet columns are matched by the column header name so it is important if a treatment
-            is added make sure they are present in the web form’s table too. The import will work without them but those
-            columns will be ignored.
-
-Importing through an Excel file will now be done at background without populating the table below the file drop area, after processing is done, a message will appear as below:
-![New columns](images/plot_excel_import.png)
