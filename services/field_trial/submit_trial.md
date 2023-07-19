@@ -10,4 +10,9 @@ A Trial consists of the following pieces of information
  * **Team**: The team or group that are conducting the Field Trial.
  * **Programme** *: This is the Programme that this Field Trial is a part of.
 
-![The form for submitting a Field Trial](images/Image_0.png "Submit Field Trial")
+
+<img src="images/8_submit_trial.png" alt="Submit Field Trial" style="width: 100%;">
+
+Addionally, it is possible to add extra information in this level, such a co-Principal Investigator or another relevant leader or contributor.
+
+<img src="images/8_submit_trial_people.png" alt="Submit Field Trial" style="width: 100%;">
