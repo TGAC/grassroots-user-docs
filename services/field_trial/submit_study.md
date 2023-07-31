@@ -134,3 +134,10 @@ values for each Plot entry row.
 ![Add Treatment Factors](images/submit_study_treatment_factors.png)
 
 Press the + button to add a new set of treatment factors, and under each of them press Add Row to add new Labels and Values.
+
+### Contributors
+
+If more people are involved in a particular study, it is possible to acknowledge them by adding them as contributors. It is possible to add as many contributors as needed. To add extra contributors, press the + button and then enter their name and email address. optionally, you can also add role, affiliation and ORCID.
+
+ 
+![Add Contrubutors](images/9_contributors_study.png)
