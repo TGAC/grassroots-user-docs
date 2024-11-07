@@ -1,4 +1,4 @@
-## Submitting Programme
+## Submitting Programmes
 
 Programmes consist of one or more Field Trials.  The form for submitting or editing an existing Programme is available at [https://grassroots.tools/private/service/field_trial-submit_programme](https://grassroots.tools/private/service/field_trial-submit_programme "Submit Programme service")
 
