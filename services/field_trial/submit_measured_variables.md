@@ -8,7 +8,9 @@ Within an experiment various phenotypes can be measured and these are called **M
 
 Before the Plots data that contains phenotypic values can be submitted, the required *Measured Variables* need to have been imported into the system. The form for submitting these ontology terms is available at [https://grassroots.tools/private/service/field_trial-submit_measured_variables](https://grassroots.tools/private/service/field_trial-submit_measured_variables)
 
-The data is submitted as a spreadsheet where each row contains the information for a single *Measured Variable* and the column headings are described below:
+The data is submitted as a spreadsheet where each row contains the information for a single *Measured Variable*. 
+you can download a [empty_measured_variables.csv](spreadsheet) with the correct column headings ready for you to add your measured variable definitions to.
+The column headings are described below: 
 
  * **Variable Identifier** *: This is the unique URI for this variable.
  * **Variable Name** *: The name of the phenotype being measured. This is the column header that you should use when submitting the Plots data for a Study and it cannot contain any spaces.

@@ -17,9 +17,10 @@ The file should be in the format described below.
 A Study can contain different categories of plots which are used for a variety of purposes. We currently support the following different types of plots:
 
  * **Standard**: These are plots where a plant has been grown and one or more phenotypic values have been measured.
- * **Blank**:  A non-existent plot. For instance it can be used in an L-shaped experiment to make a rectangular set of rows and columns.
- * **Discard**: A plot where an error renders all data worthless and is ignored by Grassroots. However, data may still be collected, *e.g.* if the plot exists the farm will record a yield
-
+ * **Blank**:  A non-existent plot. For instance it can be used in an L-shaped experiment to make a rectangular set of rows and columns. This is specified by adding a column with a heading 
+ of _blank_ to the spreadsheet and putting a _1_ in the relevant cell for the rows that specift blank plots.
+ * **Discard**: A plot where an error renders all data worthless and is ignored by Grassroots. However, data may still be collected, *e.g.* if the plot exists the farm will record a yield.
+This is specified by adding a column with a heading of _blank_ to the spreadsheet and putting a _1_ in the relevant cell for the rows that specift blank plots.
 
 ## Plot details
 
