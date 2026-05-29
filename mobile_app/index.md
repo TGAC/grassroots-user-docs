@@ -6,13 +6,13 @@ The mobile app displays and submit the observations in field trials. It is writt
 
 <!--The app scans QR codes which identify individual plots within a field trial study. It then displays the details of the plot on the screen. The user has the option to enter new observations for the plot and submit them to the Grassroots Field Trial system. -->
 
-The app is can be downloaded from the [Google Play Store](https://play.google.com/store/apps/details?id=uk.ac.earlham.grassroots.field_trials), or from the Apple store [Apple Store](https://apps.apple.com/app/grassroots-field-trials/id6760410828).
+The app can be downloaded from the [Google Play Store](https://play.google.com/store/apps/details?id=uk.ac.earlham.grassroots.field_trials), or from the Apple store [Apple Store](https://apps.apple.com/app/grassroots-field-trials/id6760410828).
 
 <!--Whilst it is still in prototyping, there will be only be one simple study with QR codes available. --> 
 
 ## Getting Started
 
-On the the home screen the user can select to create a study or go to an existing one. 
+On the home screen the user can select to create a study or go to an existing one. 
 
 <!--![The Grassroots mobile app home screen](images/home_screen.jpeg "The Grassroots mobile app home screen")-->
 
